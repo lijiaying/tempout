@@ -1,0 +1,484 @@
+model: ../../TestNets/pldi/relu/mnist_relu_5_50.tf
+timeout: 240.0
+------------------------------ test 0 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 09:59:00
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✓  0.018✗  0.017✗  robustness=0.016
+- deepinput - <timeout=240.0>  2020-11-09 09:59:19
+  + robust_check: 0.017✗  robustness=0.016
+- summary:
+  + robustness:  {'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}
+  + time_spent:  2020-11-09 09:59:00 ~ 2020-11-09 10:01:03 
+
+========== for test 0 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 1 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:01:03
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✗  0.014✗  robustness=0.013
+- deepinput - <timeout=240.0>  2020-11-09 10:01:17
+  + robust_check: 0.014✗  robustness=0.013
+- summary:
+  + robustness:  {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}
+  + time_spent:  2020-11-09 10:01:03 ~ 2020-11-09 10:03:00 
+
+========== for test 1 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 2 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:03:00
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✗  0.01✗  robustness=0.009
+- deepinput - <timeout=240.0>  2020-11-09 10:03:18
+  + robust_check: 0.01✗  robustness=0.009
+- summary:
+  + robustness:  {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}
+  + time_spent:  2020-11-09 10:03:00 ~ 2020-11-09 10:05:02 
+
+========== for test 2 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 3 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:05:02
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✗  0.014✗  robustness=0.013
+- deepinput - <timeout=240.0>  2020-11-09 10:05:18
+  + robust_check: 0.014✓  0.015✗  robustness=0.014
+- summary:
+  + robustness:  {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}
+  + time_spent:  2020-11-09 10:05:02 ~ 2020-11-09 10:07:09 
+
+========== for test 3 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 4 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:07:09
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✓  0.012✗  robustness=0.011
+- deepinput - <timeout=240.0>  2020-11-09 10:07:27
+  + robust_check: 0.012✗  robustness=0.011
+- summary:
+  + robustness:  {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}
+  + time_spent:  2020-11-09 10:07:09 ~ 2020-11-09 10:09:10 
+
+========== for test 4 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 5 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:09:10
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✓  0.012✓  robustness=0.012
+- deepinput - <timeout=240.0>  2020-11-09 10:09:30
+  + robust_check: 0.013✗  robustness=0.012
+- summary:
+  + robustness:  {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}
+  + time_spent:  2020-11-09 10:09:10 ~ 2020-11-09 10:11:14 
+
+========== for test 5 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 6 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:11:14
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✗  0.014✗  robustness=0.013
+- deepinput - <timeout=240.0>  2020-11-09 10:11:30
+  + robust_check: 0.014✗  robustness=0.013
+- summary:
+  + robustness:  {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}
+  + time_spent:  2020-11-09 10:11:14 ~ 2020-11-09 10:13:13 
+
+========== for test 6 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 7 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:13:13
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✗  0.01✓  robustness=0.01
+- deepinput - <timeout=240.0>  2020-11-09 10:13:30
+  + robust_check: 0.011✗  robustness=0.01
+- summary:
+  + robustness:  {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}
+  + time_spent:  2020-11-09 10:13:13 ~ 2020-11-09 10:15:13 
+
+========== for test 7 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 8 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:15:13
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✗  0.007✓  0.008✗  robustness=0.007
+- deepinput - <timeout=240.0>  2020-11-09 10:15:31
+  + robust_check: 0.008✓  0.009✗  robustness=0.008
+- summary:
+  + robustness:  {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}
+  + time_spent:  2020-11-09 10:15:13 ~ 2020-11-09 10:18:34 
+
+========== for test 8 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 9 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:18:34
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✗  0.014✓  0.015✗  robustness=0.014
+- deepinput - <timeout=240.0>  2020-11-09 10:18:53
+  + robust_check: 0.015✗  robustness=0.014
+- summary:
+  + robustness:  {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}
+  + time_spent:  2020-11-09 10:18:34 ~ 2020-11-09 10:20:36 
+
+========== for test 9 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 10 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:20:36
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✓  0.022✓  0.024✗  0.023✗  robustness=0.022
+- deepinput - <timeout=240.0>  2020-11-09 10:20:56
+  + robust_check: 0.023✗  robustness=0.022
+- summary:
+  + robustness:  {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}
+  + time_spent:  2020-11-09 10:20:36 ~ 2020-11-09 10:22:39 
+
+========== for test 10 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 11 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:22:39
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✓  0.012✓  robustness=0.012
+- deepinput - <timeout=240.0>  2020-11-09 10:22:58
+  + robust_check: 0.013✗  robustness=0.012
+- summary:
+  + robustness:  {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}
+  + time_spent:  2020-11-09 10:22:39 ~ 2020-11-09 10:24:41 
+
+========== for test 11 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 12 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:24:41
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✗  0.01✓  robustness=0.01
+- deepinput - <timeout=240.0>  2020-11-09 10:24:58
+  + robust_check: 0.011✗  robustness=0.01
+- summary:
+  + robustness:  {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}
+  + time_spent:  2020-11-09 10:24:41 ~ 2020-11-09 10:26:40 
+
+========== for test 12 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 13 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:26:40
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✓  0.022✗  0.02✓  0.021✗  robustness=0.02
+- deepinput - <timeout=240.0>  2020-11-09 10:27:01
+  + robust_check: 0.021✓  0.022✗  robustness=0.021
+- summary:
+  + robustness:  {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}
+  + time_spent:  2020-11-09 10:26:40 ~ 2020-11-09 10:29:49 
+
+========== for test 13 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 14 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:29:49
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✓  0.012✗  robustness=0.011
+- deepinput - <timeout=240.0>  2020-11-09 10:30:08
+  + robust_check: 0.012✓  0.013✗  robustness=0.012
+- summary:
+  + robustness:  {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}
+  + time_spent:  2020-11-09 10:29:49 ~ 2020-11-09 10:32:00 
+
+========== for test 14 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 15 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:32:00
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✓  0.018✗  0.017✗  robustness=0.016
+- deepinput - <timeout=240.0>  2020-11-09 10:32:19
+  + robust_check: 0.017✗  robustness=0.016
+- summary:
+  + robustness:  {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}
+  + time_spent:  2020-11-09 10:32:00 ~ 2020-11-09 10:34:02 
+
+========== for test 15 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 16 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:34:02
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✗  0.014✗  robustness=0.013
+- deepinput - <timeout=240.0>  2020-11-09 10:34:17
+  + robust_check: 0.014✗  robustness=0.013
+- summary:
+  + robustness:  {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}
+  + time_spent:  2020-11-09 10:34:02 ~ 2020-11-09 10:36:01 
+
+========== for test 16 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 17 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:36:01
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✓  0.022✗  0.02✗  robustness=0.019
+- deepinput - <timeout=240.0>  2020-11-09 10:36:18
+  + robust_check: 0.02✗  robustness=0.019
+- summary:
+  + robustness:  {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}
+  + time_spent:  2020-11-09 10:36:01 ~ 2020-11-09 10:38:01 
+
+========== for test 17 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 18 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:38:01
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✗  0.01✓  robustness=0.01
+- deepinput - <timeout=240.0>  2020-11-09 10:38:20
+  + robust_check: 0.011✗  robustness=0.01
+- summary:
+  + robustness:  {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}
+  + time_spent:  2020-11-09 10:38:01 ~ 2020-11-09 10:40:03 
+
+========== for test 18 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 19 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:40:03
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✗  0.014✓  0.015✗  robustness=0.014
+- deepinput - <timeout=240.0>  2020-11-09 10:40:22
+  + robust_check: 0.015✗  robustness=0.014
+- summary:
+  + robustness:  {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}
+  + time_spent:  2020-11-09 10:40:03 ~ 2020-11-09 10:42:04 
+
+========== for test 19 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 20 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:42:04
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✗  0.003✓  0.005✗  0.004✓  robustness=0.004
+- deepinput - <timeout=240.0>  2020-11-09 10:42:20
+  + robust_check: 0.005✗  robustness=0.004
+- summary:
+  + robustness:  {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}
+  + time_spent:  2020-11-09 10:42:04 ~ 2020-11-09 10:44:02 
+
+========== for test 20 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 21 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:44:02
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✓  0.012✗  robustness=0.011
+- deepinput - <timeout=240.0>  2020-11-09 10:44:21
+  + robust_check: 0.012✗  robustness=0.011
+- summary:
+  + robustness:  {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}
+  + time_spent:  2020-11-09 10:44:02 ~ 2020-11-09 10:46:03 
+
+========== for test 21 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 22 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:46:03
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✓  0.012✗  robustness=0.011
+- deepinput - <timeout=240.0>  2020-11-09 10:46:22
+  + robust_check: 0.012✗  robustness=0.011
+- summary:
+  + robustness:  {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}
+  + time_spent:  2020-11-09 10:46:03 ~ 2020-11-09 10:48:05 
+
+========== for test 22 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 23 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:48:05
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✓  0.018✗  0.017✓  robustness=0.017
+- deepinput - <timeout=240.0>  2020-11-09 10:48:24
+  + robust_check: 0.018✗  robustness=0.017
+- summary:
+  + robustness:  {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}
+  + time_spent:  2020-11-09 10:48:05 ~ 2020-11-09 10:50:07 
+
+========== for test 23 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 24 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:50:07
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✗  0.01✗  robustness=0.009
+- deepinput - <timeout=240.0>  2020-11-09 10:50:25
+  + robust_check: 0.01✗  robustness=0.009
+- summary:
+  + robustness:  {'test': 24, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}
+  + time_spent:  2020-11-09 10:50:07 ~ 2020-11-09 10:52:08 
+
+========== for test 24 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}, {'test': 24, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 25 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:52:08
+  + robust_check: 0.05✗  0.025✓  0.038✗  0.032✗  0.029✗  0.027✗  0.026✗  robustness=0.025
+- deepinput - <timeout=240.0>  2020-11-09 10:52:28
+  + robust_check: 0.026✗  robustness=0.025
+- summary:
+  + robustness:  {'test': 25, 'deepzono': 0.025, 'deepinput': [('to240.0', 0.025)]}
+  + time_spent:  2020-11-09 10:52:08 ~ 2020-11-09 10:54:49 
+
+========== for test 25 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}, {'test': 24, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 25, 'deepzono': 0.025, 'deepinput': [('to240.0', 0.025)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 26 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:54:49
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✓  0.012✓  robustness=0.012
+- deepinput - <timeout=240.0>  2020-11-09 10:55:08
+  + robust_check: 0.013✓  0.014✗  robustness=0.013
+- summary:
+  + robustness:  {'test': 26, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.013)]}
+  + time_spent:  2020-11-09 10:54:49 ~ 2020-11-09 10:56:57 
+
+========== for test 26 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}, {'test': 24, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 25, 'deepzono': 0.025, 'deepinput': [('to240.0', 0.025)]}, {'test': 26, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.013)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 27 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:56:57
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✗  0.016✗  0.014✓  0.015✓  robustness=0.015
+- deepinput - <timeout=240.0>  2020-11-09 10:57:17
+  + robust_check: 0.016✗  robustness=0.015
+- summary:
+  + robustness:  {'test': 27, 'deepzono': 0.015, 'deepinput': [('to240.0', 0.015)]}
+  + time_spent:  2020-11-09 10:56:57 ~ 2020-11-09 10:59:00 
+
+========== for test 27 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}, {'test': 24, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 25, 'deepzono': 0.025, 'deepinput': [('to240.0', 0.025)]}, {'test': 26, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.013)]}, {'test': 27, 'deepzono': 0.015, 'deepinput': [('to240.0', 0.015)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 28 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 10:59:00
+  + robust_check: 0.05✗  0.025✗  0.013✓  0.019✓  0.022✗  0.02✓  0.021✓  robustness=0.021
+- deepinput - <timeout=240.0>  2020-11-09 10:59:20
+  + robust_check: 0.022✗  robustness=0.021
+- summary:
+  + robustness:  {'test': 28, 'deepzono': 0.021, 'deepinput': [('to240.0', 0.021)]}
+  + time_spent:  2020-11-09 10:59:00 ~ 2020-11-09 11:01:03 
+
+========== for test 28 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}, {'test': 24, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 25, 'deepzono': 0.025, 'deepinput': [('to240.0', 0.025)]}, {'test': 26, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.013)]}, {'test': 27, 'deepzono': 0.015, 'deepinput': [('to240.0', 0.015)]}, {'test': 28, 'deepzono': 0.021, 'deepinput': [('to240.0', 0.021)]}]
+
+
+
+timeout: 240.0
+------------------------------ test 29 ------------------------------ 
+timeout 240.0
+- deepzono - 2020-11-09 11:01:03
+  + robust_check: 0.05✗  0.025✗  0.013✗  0.006✓  0.009✓  0.011✗  0.01✓  robustness=0.01
+- deepinput - <timeout=240.0>  2020-11-09 11:01:22
+  + robust_check: 0.011✗  robustness=0.01
+- summary:
+  + robustness:  {'test': 29, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}
+  + time_spent:  2020-11-09 11:01:03 ~ 2020-11-09 11:03:05 
+
+========== for test 29 ==========
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}, {'test': 24, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 25, 'deepzono': 0.025, 'deepinput': [('to240.0', 0.025)]}, {'test': 26, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.013)]}, {'test': 27, 'deepzono': 0.015, 'deepinput': [('to240.0', 0.015)]}, {'test': 28, 'deepzono': 0.021, 'deepinput': [('to240.0', 0.021)]}, {'test': 29, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}]
+
+
+
+************************************************** summary **************************************************
+model: ../../TestNets/pldi/relu/mnist_relu_5_50.tf
+[{'test': 0, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 1, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 2, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 3, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.014)]}, {'test': 4, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 5, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 6, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 7, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 8, 'deepzono': 0.007, 'deepinput': [('to240.0', 0.008)]}, {'test': 9, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 10, 'deepzono': 0.022, 'deepinput': [('to240.0', 0.022)]}, {'test': 11, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.012)]}, {'test': 12, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 13, 'deepzono': 0.02, 'deepinput': [('to240.0', 0.021)]}, {'test': 14, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.012)]}, {'test': 15, 'deepzono': 0.016, 'deepinput': [('to240.0', 0.016)]}, {'test': 16, 'deepzono': 0.013, 'deepinput': [('to240.0', 0.013)]}, {'test': 17, 'deepzono': 0.019, 'deepinput': [('to240.0', 0.019)]}, {'test': 18, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}, {'test': 19, 'deepzono': 0.014, 'deepinput': [('to240.0', 0.014)]}, {'test': 20, 'deepzono': 0.004, 'deepinput': [('to240.0', 0.004)]}, {'test': 21, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 22, 'deepzono': 0.011, 'deepinput': [('to240.0', 0.011)]}, {'test': 23, 'deepzono': 0.017, 'deepinput': [('to240.0', 0.017)]}, {'test': 24, 'deepzono': 0.009, 'deepinput': [('to240.0', 0.009)]}, {'test': 25, 'deepzono': 0.025, 'deepinput': [('to240.0', 0.025)]}, {'test': 26, 'deepzono': 0.012, 'deepinput': [('to240.0', 0.013)]}, {'test': 27, 'deepzono': 0.015, 'deepinput': [('to240.0', 0.015)]}, {'test': 28, 'deepzono': 0.021, 'deepinput': [('to240.0', 0.021)]}, {'test': 29, 'deepzono': 0.01, 'deepinput': [('to240.0', 0.01)]}]
