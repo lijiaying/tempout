@@ -28,3 +28,23 @@ Input>Zono  : 10
 Cegar>Zono  : 30
 No improve  : 68
 
+-------------------- summary --------------------
+network name: mnist_relu_4_50.tf
+input tested: 100
+Cegar best  : 30
+Input best  : 0
+Cegar=Input : 10
+Input>Zono  : 10
+Cegar>Zono  : 40
+No improve  : 60
+
+-------------------- summary --------------------
+network name: mnist_relu_5_100.tf
+input tested: 100
+Cegar best  : 9
+Input best  : 4
+Cegar=Input : 13
+Input>Zono  : 17
+Cegar>Zono  : 22
+No improve  : 74
+
