@@ -43,6 +43,8 @@ zc_list = []
 with open(netname+'_zc.txt', 'r') as zcf:
     lines = zcf.readlines()
     for line in lines:
+        if line.startswith('#'):
+            continue
         line = line.rstrip('\n').replace('\'', '"')
         item = json.loads(line)
         testi = item['test']
@@ -55,9 +57,9 @@ with open(netname+'_zc.txt', 'r') as zcf:
             outperform_zc_list.append([testi, deepz, deepc])
 
 
-print('number of input that deepinput outperforms deepzono:', num_outperform_zi)
+# print('number of input that deepinput outperforms deepzono:', num_outperform_zi)
 # print('items:', outperform_zi_list)
-print('number of input that deepcegar outperforms deepzono:', num_outperform_zc)
+# print('number of input that deepcegar outperforms deepzono:', num_outperform_zc)
 # print('items:', outperform_zc_list)
 
 zic_list = []
@@ -70,6 +72,8 @@ for zi, zc in zip(zi_list, zc_list):
 num_c_best = 0
 num_i_best = 0
 num_i_eq_c = 0
+num_i_gt_z = 0
+num_c_gt_z = 0
 num_no_imp = 0
 for zic in zic_list:
     deepz, deepi, deepc = zic[1:]
@@ -78,10 +82,14 @@ for zic in zic_list:
         # print('cbest item:', zic)
     if deepi>deepz and deepi>deepc: 
         num_i_best+=1
-        print('ibest item:', zic)
+        # print('ibest item:', zic)
     if deepi==deepc and deepi>deepz: 
         num_i_eq_c+=1
         # print('eq:', zic)
+    if deepi>deepz:
+        num_i_gt_z += 1
+    if deepc>deepz:
+        num_c_gt_z += 1
     if deepi==deepc and deepi==deepz: 
         num_no_imp+=1
 
@@ -91,4 +99,7 @@ print('input tested:', len(zic_list))
 print('Cegar best  :', num_c_best)
 print('Input best  :', num_i_best)
 print('Cegar=Input :', num_i_eq_c)
+print('Input>Zono  :', num_i_gt_z)
+print('Cegar>Zono  :', num_c_gt_z)
 print('No improve  :', num_no_imp)
+print()
