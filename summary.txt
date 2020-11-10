@@ -1,0 +1,30 @@
+-------------------- summary --------------------
+network name: mnist_relu_3_10.tf
+input tested: 100
+Cegar best  : 76
+Input best  : 1
+Cegar=Input : 1
+Input>Zono  : 18
+Cegar>Zono  : 77
+No improve  : 22
+
+-------------------- summary --------------------
+network name: mnist_relu_5_50.tf
+input tested: 100
+Cegar best  : 36
+Input best  : 3
+Cegar=Input : 12
+Input>Zono  : 17
+Cegar>Zono  : 48
+No improve  : 49
+
+-------------------- summary --------------------
+network name: mnist_relu_6_100.tf
+input tested: 100
+Cegar best  : 22
+Input best  : 2
+Cegar=Input : 8
+Input>Zono  : 10
+Cegar>Zono  : 30
+No improve  : 68
+
