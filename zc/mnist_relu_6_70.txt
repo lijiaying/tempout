@@ -1,0 +1,169 @@
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-03 15:55:20
+# end time:2020-09-03 18:02:47
+{'test': 0, 'deepzono': 0.009, 'deepcegar': 0.009}
+{'test': 1, 'deepzono': 0.023, 'deepcegar': 0.024}
+{'test': 2, 'deepzono': 0.007, 'deepcegar': 0.007}
+{'test': 3, 'deepzono': 0.016, 'deepcegar': 0.018}
+{'test': 4, 'deepzono': 0.015, 'deepcegar': 0.015}
+{'test': 5, 'deepzono': 0.008, 'deepcegar': 0.008}
+{'test': 6, 'deepzono': 0.008, 'deepcegar': 0.009}
+{'test': 7, 'deepzono': 0.005, 'deepcegar': 0.006}
+{'test': 8, 'deepzono': 0.006, 'deepcegar': 0.006}
+{'test': 9, 'deepzono': 0.008, 'deepcegar': 0.008}
+{'test': 10, 'deepzono': 0.02, 'deepcegar': 0.02}
+{'test': 11, 'deepzono': 0.018, 'deepcegar': 0.019}
+{'test': 12, 'deepzono': 0.006, 'deepcegar': 0.006}
+{'test': 13, 'deepzono': 0.019, 'deepcegar': 0.019}
+{'test': 14, 'deepzono': 0.01, 'deepcegar': 0.01}
+{'test': 15, 'deepzono': 0.01, 'deepcegar': 0.01}
+{'test': 16, 'deepzono': 0.011, 'deepcegar': 0.011}
+{'test': 17, 'deepzono': 0.013, 'deepcegar': 0.014}
+{'test': 18, 'deepzono': 0.012, 'deepcegar': 0.012}
+{'test': 19, 'deepzono': 0.014, 'deepcegar': 0.015}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-04 15:53:47
+# end time:2020-09-04 18:08:25
+{'test': 20, 'deepzono': 0.008, 'deepcegar': 0.009}
+{'test': 21, 'deepzono': 0.011, 'deepcegar': 0.011}
+{'test': 22, 'deepzono': 0.017, 'deepcegar': 0.018}
+{'test': 23, 'deepzono': 0.016, 'deepcegar': 0.016}
+{'test': 24, 'deepzono': 0.012, 'deepcegar': 0.013}
+{'test': 25, 'deepzono': 0.028, 'deepcegar': 0.028}
+{'test': 26, 'deepzono': 0.008, 'deepcegar': 0.008}
+{'test': 27, 'deepzono': 0.022, 'deepcegar': 0.022}
+{'test': 28, 'deepzono': 0.02, 'deepcegar': 0.02}
+{'test': 29, 'deepzono': 0.004, 'deepcegar': 0.004}
+{'test': 30, 'deepzono': 0.015, 'deepcegar': 0.016}
+{'test': 31, 'deepzono': 0.006, 'deepcegar': 0.007}
+{'test': 32, 'deepzono': 0.018, 'deepcegar': 0.019}
+{'test': 33, 'deepzono': 0.013, 'deepcegar': 0.013}
+{'test': 34, 'deepzono': 0.013, 'deepcegar': 0.013}
+{'test': 35, 'deepzono': 0.011, 'deepcegar': 0.011}
+{'test': 36, 'deepzono': 0.014, 'deepcegar': 0.015}
+{'test': 37, 'deepzono': 0.008, 'deepcegar': 0.008}
+{'test': 38, 'deepzono': 0.008, 'deepcegar': 0.008}
+{'test': 39, 'deepzono': 0.008, 'deepcegar': 0.008}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-04 15:54:01
+# end time:2020-09-04 18:11:53
+{'test': 40, 'deepzono': 0.005, 'deepcegar': 0.005}
+{'test': 41, 'deepzono': 0.009, 'deepcegar': 0.009}
+{'test': 42, 'deepzono': 0.018, 'deepcegar': 0.02}
+{'test': 43, 'deepzono': 0.009, 'deepcegar': 0.009}
+{'test': 44, 'deepzono': 0.01, 'deepcegar': 0.01}
+{'test': 45, 'deepzono': 0.01, 'deepcegar': 0.01}
+{'test': 46, 'deepzono': 0.009, 'deepcegar': 0.01}
+{'test': 47, 'deepzono': 0.021, 'deepcegar': 0.021}
+{'test': 48, 'deepzono': 0.023, 'deepcegar': 0.024}
+{'test': 49, 'deepzono': 0.017, 'deepcegar': 0.018}
+{'test': 50, 'deepzono': 0.009, 'deepcegar': 0.01}
+{'test': 51, 'deepzono': 0.019, 'deepcegar': 0.02}
+{'test': 52, 'deepzono': 0.014, 'deepcegar': 0.014}
+{'test': 53, 'deepzono': 0.014, 'deepcegar': 0.015}
+{'test': 54, 'deepzono': 0.022, 'deepcegar': 0.023}
+{'test': 55, 'deepzono': 0.014, 'deepcegar': 0.015}
+{'test': 56, 'deepzono': 0.026, 'deepcegar': 0.026}
+{'test': 57, 'deepzono': 0.008, 'deepcegar': 0.008}
+{'test': 58, 'deepzono': 0.005, 'deepcegar': 0.005}
+{'test': 59, 'deepzono': 0.01, 'deepcegar': 0.011}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 12:19:46
+# end time:2020-09-08 12:24:25
+{'test': 60, 'deepzono': 0.019, 'deepcegar': 0.02}
+{'test': 61, 'deepzono': 0.0, 'deepcegar': 0.0}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:52
+{'test': 62, 'deepzono': 0.004, 'deepcegar': 0.004}
+{'test': 63, 'deepzono': 0.017, 'deepcegar': 0.017}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:22
+{'test': 64, 'deepzono': 0.012, 'deepcegar': 0.012}
+{'test': 65, 'deepzono': 0.005, 'deepcegar': 0.005}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:55
+{'test': 66, 'deepzono': 0.011, 'deepcegar': 0.011}
+{'test': 67, 'deepzono': 0.015, 'deepcegar': 0.015}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:51
+{'test': 68, 'deepzono': 0.022, 'deepcegar': 0.022}
+{'test': 69, 'deepzono': 0.02, 'deepcegar': 0.02}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:21
+{'test': 70, 'deepzono': 0.014, 'deepcegar': 0.014}
+{'test': 71, 'deepzono': 0.029, 'deepcegar': 0.029}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 11:02:57
+# end time:2020-09-08 11:10:22
+{'test': 72, 'deepzono': 0.01, 'deepcegar': 0.011}
+{'test': 73, 'deepzono': 0.012, 'deepcegar': 0.012}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:54
+{'test': 74, 'deepzono': 0.007, 'deepcegar': 0.007}
+{'test': 75, 'deepzono': 0.016, 'deepcegar': 0.016}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 11:03:03
+# end time:2020-09-08 11:17:16
+{'test': 76, 'deepzono': 0.017, 'deepcegar': 0.017}
+{'test': 77, 'deepzono': 0.013, 'deepcegar': 0.014}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:47
+{'test': 78, 'deepzono': 0.007, 'deepcegar': 0.007}
+{'test': 79, 'deepzono': 0.016, 'deepcegar': 0.016}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:48
+{'test': 80, 'deepzono': 0.009, 'deepcegar': 0.009}
+{'test': 81, 'deepzono': 0.012, 'deepcegar': 0.012}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:51
+{'test': 82, 'deepzono': 0.02, 'deepcegar': 0.02}
+{'test': 83, 'deepzono': 0.011, 'deepcegar': 0.011}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:11
+{'test': 84, 'deepzono': 0.014, 'deepcegar': 0.014}
+{'test': 85, 'deepzono': 0.024, 'deepcegar': 0.024}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:23
+{'test': 86, 'deepzono': 0.013, 'deepcegar': 0.013}
+{'test': 87, 'deepzono': 0.017, 'deepcegar': 0.017}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 11:03:06
+# end time:2020-09-08 11:07:59
+{'test': 88, 'deepzono': 0.024, 'deepcegar': 0.024}
+{'test': 89, 'deepzono': 0.008, 'deepcegar': 0.008}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:49
+{'test': 90, 'deepzono': 0.021, 'deepcegar': 0.021}
+{'test': 91, 'deepzono': 0.014, 'deepcegar': 0.014}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:17
+{'test': 92, 'deepzono': 0.003, 'deepcegar': 0.003}
+{'test': 93, 'deepzono': 0.018, 'deepcegar': 0.018}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:50
+{'test': 94, 'deepzono': 0.012, 'deepcegar': 0.012}
+{'test': 95, 'deepzono': 0.02, 'deepcegar': 0.02}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:17
+{'test': 96, 'deepzono': 0.005, 'deepcegar': 0.005}
+{'test': 97, 'deepzono': 0.012, 'deepcegar': 0.012}
+# model:../../TestNets/pldi/mnist_relu_6_70.tf
+# start time:2020-09-08 08:28:13
+# end time:2020-09-08 08:42:51
+{'test': 98, 'deepzono': 0.01, 'deepcegar': 0.01}
+{'test': 99, 'deepzono': 0.02, 'deepcegar': 0.02}

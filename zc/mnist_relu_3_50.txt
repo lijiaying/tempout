@@ -1,0 +1,174 @@
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-06 16:48:36
+# end time:2020-09-06 18:08:30
+{'test': 0, 'deepzono': 0.015, 'deepcegar': 0.015}
+{'test': 1, 'deepzono': 0.027, 'deepcegar': 0.027}
+{'test': 2, 'deepzono': 0.012, 'deepcegar': 0.013}
+{'test': 3, 'deepzono': 0.029, 'deepcegar': 0.031}
+{'test': 4, 'deepzono': 0.015, 'deepcegar': 0.016}
+{'test': 5, 'deepzono': 0.016, 'deepcegar': 0.017}
+{'test': 6, 'deepzono': 0.016, 'deepcegar': 0.017}
+{'test': 7, 'deepzono': 0.01, 'deepcegar': 0.011}
+{'test': 8, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 9, 'deepzono': 0.02, 'deepcegar': 0.02}
+{'test': 10, 'deepzono': 0.021, 'deepcegar': 0.022}
+{'test': 11, 'deepzono': 0.021, 'deepcegar': 0.022}
+{'test': 12, 'deepzono': 0.012, 'deepcegar': 0.012}
+{'test': 13, 'deepzono': 0.022, 'deepcegar': 0.023}
+{'test': 14, 'deepzono': 0.017, 'deepcegar': 0.018}
+{'test': 15, 'deepzono': 0.017, 'deepcegar': 0.018}
+{'test': 16, 'deepzono': 0.015, 'deepcegar': 0.016}
+{'test': 17, 'deepzono': 0.01, 'deepcegar': 0.01}
+{'test': 18, 'deepzono': 0.01, 'deepcegar': 0.01}
+{'test': 19, 'deepzono': 0.018, 'deepcegar': 0.019}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-03 23:14:20
+# end time:2020-09-04 01:10:05
+{'test': 20, 'deepzono': 0.011, 'deepcegar': 0.011}
+{'test': 21, 'deepzono': 0.014, 'deepcegar': 0.015}
+{'test': 22, 'deepzono': 0.021, 'deepcegar': 0.022}
+{'test': 23, 'deepzono': 0.025, 'deepcegar': 0.026}
+{'test': 24, 'deepzono': 0.011, 'deepcegar': 0.012}
+{'test': 25, 'deepzono': 0.032, 'deepcegar': 0.032}
+{'test': 26, 'deepzono': 0.019, 'deepcegar': 0.019}
+{'test': 27, 'deepzono': 0.024, 'deepcegar': 0.025}
+{'test': 28, 'deepzono': 0.024, 'deepcegar': 0.025}
+{'test': 29, 'deepzono': 0.014, 'deepcegar': 0.015}
+{'test': 30, 'deepzono': 0.022, 'deepcegar': 0.023}
+{'test': 31, 'deepzono': 0.013, 'deepcegar': 0.013}
+{'test': 32, 'deepzono': 0.025, 'deepcegar': 0.025}
+{'test': 33, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 34, 'deepzono': 0.018, 'deepcegar': 0.021}
+{'test': 35, 'deepzono': 0.019, 'deepcegar': 0.021}
+{'test': 36, 'deepzono': 0.013, 'deepcegar': 0.013}
+{'test': 37, 'deepzono': 0.016, 'deepcegar': 0.017}
+{'test': 38, 'deepzono': 0.007, 'deepcegar': 0.008}
+{'test': 39, 'deepzono': 0.015, 'deepcegar': 0.016}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:23:04
+{'test': 40, 'deepzono': 0.01, 'deepcegar': 0.011}
+{'test': 41, 'deepzono': 0.009, 'deepcegar': 0.009}
+# {'test': 42, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 42, 'deepzono': 0.021, 'deepcegar': 0.021}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:23:08
+{'test': 43, 'deepzono': 0.011, 'deepcegar': 0.011}
+{'test': 44, 'deepzono': 0.018, 'deepcegar': 0.019}
+# {'test': 45, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 45, 'deepzono': 0.011, 'deepcegar': 0.011}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:22:56
+{'test': 46, 'deepzono': 0.018, 'deepcegar': 0.018}
+{'test': 47, 'deepzono': 0.015, 'deepcegar': 0.016}
+# {'test': 48, 'deepzono': 0.025, 'deepcegar': 0.025}
+{'test': 48, 'deepzono': 0.027, 'deepcegar': 0.027}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:23:18
+{'test': 49, 'deepzono': 0.022, 'deepcegar': 0.023}
+{'test': 50, 'deepzono': 0.016, 'deepcegar': 0.016}
+# {'test': 51, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 51, 'deepzono': 0.027, 'deepcegar': 0.027}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 19:59:56
+# end time:2020-09-07 20:08:25
+{'test': 52, 'deepzono': 0.014, 'deepcegar': 0.014}
+{'test': 53, 'deepzono': 0.015, 'deepcegar': 0.015}
+{'test': 54, 'deepzono': 0.027, 'deepcegar': 0.027}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:22:54
+{'test': 55, 'deepzono': 0.018, 'deepcegar': 0.018}
+{'test': 56, 'deepzono': 0.03, 'deepcegar': 0.031}
+{'test': 57, 'deepzono': 0.014, 'deepcegar': 0.014}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:22:43
+{'test': 58, 'deepzono': 0.017, 'deepcegar': 0.017}
+{'test': 59, 'deepzono': 0.012, 'deepcegar': 0.012}
+{'test': 60, 'deepzono': 0.031, 'deepcegar': 0.031}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:24:15
+{'test': 61, 'deepzono': 0.003, 'deepcegar': 0.003}
+{'test': 62, 'deepzono': 0.007, 'deepcegar': 0.008}
+{'test': 63, 'deepzono': 0.016, 'deepcegar': 0.017}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:20:40
+{'test': 64, 'deepzono': 0.02, 'deepcegar': 0.02}
+{'test': 65, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 66, 'deepzono': 0.014, 'deepcegar': 0.014}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 19:59:56
+# end time:2020-09-07 20:12:10
+{'test': 67, 'deepzono': 0.02, 'deepcegar': 0.02}
+{'test': 68, 'deepzono': 0.027, 'deepcegar': 0.028}
+{'test': 69, 'deepzono': 0.025, 'deepcegar': 0.026}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:23:28
+{'test': 70, 'deepzono': 0.017, 'deepcegar': 0.018}
+{'test': 71, 'deepzono': 0.037, 'deepcegar': 0.038}
+# {'test': 72, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 72, 'deepzono': 0.015, 'deepcegar': 0.015}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:22:56
+{'test': 73, 'deepzono': 0.016, 'deepcegar': 0.018}
+{'test': 74, 'deepzono': 0.014, 'deepcegar': 0.014}
+{'test': 75, 'deepzono': 0.016, 'deepcegar': 0.017}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:22:36
+{'test': 76, 'deepzono': 0.021, 'deepcegar': 0.021}
+{'test': 77, 'deepzono': 0.016, 'deepcegar': 0.016}
+{'test': 78, 'deepzono': 0.013, 'deepcegar': 0.013}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:23:14
+{'test': 79, 'deepzono': 0.021, 'deepcegar': 0.021}
+{'test': 80, 'deepzono': 0.009, 'deepcegar': 0.009}
+{'test': 81, 'deepzono': 0.012, 'deepcegar': 0.013}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:23:31
+{'test': 82, 'deepzono': 0.028, 'deepcegar': 0.029}
+{'test': 83, 'deepzono': 0.015, 'deepcegar': 0.016}
+# {'test': 84, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 84, 'deepzono': 0.021, 'deepcegar': 0.021}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:23:58
+{'test': 85, 'deepzono': 0.032, 'deepcegar': 0.033}
+{'test': 86, 'deepzono': 0.016, 'deepcegar': 0.016}
+# {'test': 87, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 87, 'deepzono': 0.021, 'deepcegar': 0.022}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:51:21
+# end time:2020-09-07 18:06:58
+{'test': 88, 'deepzono': 0.029, 'deepcegar': 0.032}
+{'test': 89, 'deepzono': 0.013, 'deepcegar': 0.014}
+{'test': 90, 'deepzono': 0.022, 'deepcegar': 0.023}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:23:19
+{'test': 91, 'deepzono': 0.017, 'deepcegar': 0.018}
+{'test': 92, 'deepzono': 0.01, 'deepcegar': 0.011}
+# {'test': 93, 'deepzono': 0.0, 'deepcegar': 0.0}
+{'test': 93, 'deepzono': 0.022, 'deepcegar': 0.023}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:14:30
+# end time:2020-09-07 17:22:32
+{'test': 94, 'deepzono': 0.019, 'deepcegar': 0.019}
+{'test': 95, 'deepzono': 0.004, 'deepcegar': 0.004}
+{'test': 96, 'deepzono': 0.004, 'deepcegar': 0.004}
+# model:../../TestNets/pldi/mnist_relu_3_50.tf
+# start time:2020-09-07 17:51:29
+# end time:2020-09-07 18:05:36
+{'test': 97, 'deepzono': 0.02, 'deepcegar': 0.021}
+{'test': 98, 'deepzono': 0.016, 'deepcegar': 0.016}
+{'test': 99, 'deepzono': 0.023, 'deepcegar': 0.025}
