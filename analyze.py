@@ -31,6 +31,27 @@ def load_network_result(netname, key):
     return lst
 
 
+def analyze_zc(netname):
+    zcs = load_network_result(netname, 'cegar')
+    no_imp = 0
+    num = 0
+    scr = 0
+    bss = 0
+    if zcs is None:
+        return False
+    for zc in zcs:
+        testi, deepz, deepc = zc
+        if deepc>deepz:
+            num += 1
+            scr += deepc-deepz
+            bss += deepz
+        if deepz==deepc: 
+            no_imp+=1
+
+    if num!=0:
+        avg = scr/bss*100
+    return num, round(avg, 1)
+
 
 def combine_results(netname):
     zis = load_network_result(netname, 'input')
@@ -42,7 +63,7 @@ def combine_results(netname):
         for zi, zc in zip(zis, zcs):
             assert zi[0] == zc[0]
             if zi[1] != zc[1]:
-                print('zi:', zi, 'zc:', zc)
+                print(netname, 'zi:', zi, 'zc:', zc)
                 continue
             item = {'test': zi[0], 'deepzono': zi[1], 'deepinput': zi[2], 'deepcegar': zc[2]}
             f.write(str(item) + '\n')
@@ -79,51 +100,73 @@ def analyze(netname):
     if records is None:
         return None
     no_imp = 0
-    numbr={'i>z':0, 'c>z':0, 'i>c':0, 'c>i':0}
-    score={'i>z':0, 'c>z':0, 'i>c':0, 'c>i':0}
-    basis={'i>z':0, 'c>z':0, 'i>c':0, 'c>i':0}
-    averg={'i>z':0, 'c>z':0, 'i>c':0, 'c>i':0}
+    num={'i>z':0, 'c>z':0, 'i>c':0, 'c>i':0}
+    scr={'i>z':0, 'c>z':0, 'i>c':0, 'c>i':0}
+    bss={'i>z':0, 'c>z':0, 'i>c':0, 'c>i':0}
+    avg={'i>z':0, 'c>z':0, 'i>c':0, 'c>i':0}
     for record in records:
         testi, deepz, deepi, deepc = record
         if deepi>deepz:
-            numbr['i>z'] += 1
-            score['i>z'] += deepi-deepz
-            basis['i>z'] = deepz
+            num['i>z'] += 1
+            scr['i>z'] += deepi-deepz
+            bss['i>z'] += deepz
         if deepc>deepz:
-            numbr['c>z'] += 1
-            score['c>z'] += deepc-deepz
-            basis['c>z'] = deepz
+            num['c>z'] += 1
+            scr['c>z'] += deepc-deepz
+            bss['c>z'] += deepz
         if deepi>deepc:
-            numbr['i>c'] += 1
-            score['i>c'] += deepi-deepc
-            basis['i>c'] = deepc
+            num['i>c'] += 1
+            scr['i>c'] += deepi-deepc
+            bss['i>c'] += deepc
         if deepc>deepi:
-            numbr['c>i'] += 1
-            score['c>i'] += deepc-deepi
-            basis['c>i'] = deepi
+            num['c>i'] += 1
+            scr['c>i'] += deepc-deepi
+            bss['c>i'] += deepi
         if deepi==deepc and deepi==deepz: 
             no_imp+=1
 
-    for key in numbr:
-        if numbr[key]!=0:
-            averg[key] = (score[key])/basis[key]/numbr[key] * 100
-    print('-'*20, 'summary', '-'*20)
-    print('network name:', netname+'.tf')
-    # print('input tested:', len(zic_list))
-    print('  Input>Zono  :', numbr['i>z'], score['i>z'], averg['i>z'], '%')
-    print('  Cegar>Zono  :', numbr['c>z'], score['c>z'], averg['c>z'], '%')
-    print('  Input>Cegar :', numbr['i>c'], score['i>c'], averg['i>c'], '%')
-    print('  Cegar>Input :', numbr['c>i'], score['c>i'], averg['c>i'], '%')
-    # print('No improve  :', no_imp)
-    # assert (c_best == c_gt_i)
-    # assert (i_best == i_gt_c)
-    print()
-    return (numbr['i>z'], numbr['c>z'], numbr['i>c'], numbr['c>i'])
+    for key in num:
+        if num[key]!=0:
+            avg[key] = (scr[key])/bss[key] * 100
+    # print('-'*20, 'summary', '-'*20)
+    # print('network name:', netname+'.tf')
+    # # print('input tested:', len(zic_list))
+    # print('  Input>Zono  :', num['i>z'], scr['i>z'], avg['i>z'], '%')
+    # print('  Cegar>Zono  :', num['c>z'], scr['c>z'], avg['c>z'], '%')
+    # print('  Input>Cegar :', num['i>c'], scr['i>c'], avg['i>c'], '%')
+    # print('  Cegar>Input :', num['c>i'], scr['c>i'], avg['c>i'], '%')
+    # # print('No improve  :', no_imp)
+    # # assert (c_best == c_gt_i)
+    # # assert (i_best == i_gt_c)
+    # print()
+    # print(num['c>i'], num['i>c'], avg['c>i'])
+    return num['c>i'], num['i>c'], round(avg['c>i'], 1)
+    return (num['i>z'], num['c>z'], num['i>c'], num['c>i'])
+
+
+def deepcegar_on_deepz():
+    K = [3, 4, 5, 6]
+    N = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200]
+    excludes = [(3,10), (4,50), (5,50), (5,100), (6,100), (6, 200)]
+    
+    results = []
+    for k in K:
+        k_result = []
+        for n in N:
+            # if (k,n) in excludes:
+            #     continue
+            netname = 'mnist_relu_' + str(k) + '_' + str(n)
+            number, percent = analyze_zc(netname)
+            k_result.append(number)
+            k_result.append(percent)
+        results.append(k_result)
+        print('k=', k, ' & ', ' & '.join([str(v) for v in k_result]), ' \\\\', sep='')
+    print(results)
 
 
 
 
-if __name__ == '__main__':
+def deepall():
     K = [3, 4, 5, 6]
     N = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200]
     excludes = [(3,10), (4,50), (5,50), (5,100), (6,100), (6, 200)]
@@ -137,9 +180,19 @@ if __name__ == '__main__':
             result = analyze(netname)
             if result is None:
                 continue
-            (ibet, cbet, ibst, cbst) = result
-            results.append([k, n, ibet, cbet, ibst, cbst])
+            (c, i, inum) = result
+            results.append([k, n, c, i, inum])
+            print(results[-1])
+            # (ibet, cbet, ibst, cbst) = result
+            # results.append([k, n, ibet, cbet, ibst, cbst])
     
-    with open('./sum.csv', 'w') as f:
-        for result in results:
-            f.write(','.join(str(v) for v in result)+'\n')
+    # with open('./sum.csv', 'w') as f:
+    #     for result in results:
+    #         f.write(','.join(str(v) for v in result)+'\n')
+
+
+
+
+if __name__ == '__main__':
+    # deepcegar_on_deepz()
+    deepall()
