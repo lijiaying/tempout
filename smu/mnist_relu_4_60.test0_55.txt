@@ -1,0 +1,80 @@
+# model name: mnist_relu_4_60.tf
+# from  test: 0
+# num  tests: 5
+# start time: 2020-11-17 05:39:00
+# end   time: 2020-11-17 05:46:10
+{'test': 0, 'deepzono': 0.013, 'deepinput': 0.013}
+{'test': 1, 'deepzono': 0.02, 'deepinput': 0.021}
+{'test': 2, 'deepzono': 0.01, 'deepinput': 0.011}
+{'test': 3, 'deepzono': 0.013, 'deepinput': 0.013}
+{'test': 4, 'deepzono': 0.013, 'deepinput': 0.013}
+# start time: 2020-11-17 05:46:10
+# end   time: 2020-11-17 05:52:55
+{'test': 5, 'deepzono': 0.014, 'deepinput': 0.014}
+{'test': 6, 'deepzono': 0.009, 'deepinput': 0.01}
+{'test': 7, 'deepzono': 0.009, 'deepinput': 0.009}
+{'test': 8, 'deepzono': 0.014, 'deepinput': 0.014}
+{'test': 9, 'deepzono': 0.019, 'deepinput': 0.019}
+# start time: 2020-11-17 05:52:55
+# end   time: 2020-11-17 05:59:54
+{'test': 10, 'deepzono': 0.021, 'deepinput': 0.022}
+{'test': 11, 'deepzono': 0.012, 'deepinput': 0.012}
+{'test': 12, 'deepzono': 0.016, 'deepinput': 0.016}
+{'test': 13, 'deepzono': 0.023, 'deepinput': 0.023}
+{'test': 14, 'deepzono': 0.016, 'deepinput': 0.016}
+# start time: 2020-11-17 05:59:54
+# end   time: 2020-11-17 06:05:29
+{'test': 15, 'deepzono': 0.014, 'deepinput': 0.014}
+{'test': 16, 'deepzono': 0.014, 'deepinput': 0.014}
+{'test': 17, 'deepzono': 0.016, 'deepinput': 0.016}
+{'test': 18, 'deepzono': 0.0, 'deepinput': 0.0}
+{'test': 19, 'deepzono': 0.012, 'deepinput': 0.012}
+# start time: 2020-11-17 06:05:29
+# end   time: 2020-11-17 06:12:14
+{'test': 20, 'deepzono': 0.009, 'deepinput': 0.009}
+{'test': 21, 'deepzono': 0.01, 'deepinput': 0.01}
+{'test': 22, 'deepzono': 0.015, 'deepinput': 0.015}
+{'test': 23, 'deepzono': 0.017, 'deepinput': 0.017}
+{'test': 24, 'deepzono': 0.01, 'deepinput': 0.01}
+# start time: 2020-11-17 06:12:14
+# end   time: 2020-11-17 06:18:58
+{'test': 25, 'deepzono': 0.02, 'deepinput': 0.02}
+{'test': 26, 'deepzono': 0.012, 'deepinput': 0.012}
+{'test': 27, 'deepzono': 0.015, 'deepinput': 0.015}
+{'test': 28, 'deepzono': 0.02, 'deepinput': 0.02}
+{'test': 29, 'deepzono': 0.012, 'deepinput': 0.012}
+# start time: 2020-11-17 06:18:58
+# end   time: 2020-11-17 06:26:04
+{'test': 30, 'deepzono': 0.02, 'deepinput': 0.02}
+{'test': 31, 'deepzono': 0.008, 'deepinput': 0.009}
+{'test': 32, 'deepzono': 0.023, 'deepinput': 0.024}
+{'test': 33, 'deepzono': 0.014, 'deepinput': 0.014}
+{'test': 34, 'deepzono': 0.02, 'deepinput': 0.02}
+# start time: 2020-11-17 06:26:04
+# end   time: 2020-11-17 06:32:18
+{'test': 35, 'deepzono': 0.019, 'deepinput': 0.02}
+{'test': 36, 'deepzono': 0.019, 'deepinput': 0.019}
+{'test': 37, 'deepzono': 0.013, 'deepinput': 0.013}
+{'test': 38, 'deepzono': 0.001, 'deepinput': 0.001}
+{'test': 39, 'deepzono': 0.013, 'deepinput': 0.013}
+# start time: 2020-11-17 06:32:18
+# end   time: 2020-11-17 06:39:16
+{'test': 40, 'deepzono': 0.011, 'deepinput': 0.011}
+{'test': 41, 'deepzono': 0.015, 'deepinput': 0.015}
+{'test': 42, 'deepzono': 0.01, 'deepinput': 0.011}
+{'test': 43, 'deepzono': 0.01, 'deepinput': 0.01}
+{'test': 44, 'deepzono': 0.016, 'deepinput': 0.016}
+# start time: 2020-11-17 06:39:16
+# end   time: 2020-11-17 06:46:24
+{'test': 45, 'deepzono': 0.014, 'deepinput': 0.014}
+{'test': 46, 'deepzono': 0.016, 'deepinput': 0.016}
+{'test': 47, 'deepzono': 0.019, 'deepinput': 0.019}
+{'test': 48, 'deepzono': 0.018, 'deepinput': 0.018}
+{'test': 49, 'deepzono': 0.013, 'deepinput': 0.014}
+# start time: 2020-11-17 06:46:24
+# end   time: 2020-11-17 06:53:12
+{'test': 50, 'deepzono': 0.012, 'deepinput': 0.012}
+{'test': 51, 'deepzono': 0.019, 'deepinput': 0.02}
+{'test': 52, 'deepzono': 0.016, 'deepinput': 0.016}
+{'test': 53, 'deepzono': 0.013, 'deepinput': 0.013}
+{'test': 54, 'deepzono': 0.018, 'deepinput': 0.018}
