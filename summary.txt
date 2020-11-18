@@ -1,60 +1,8 @@
--------------------- summary --------------------
-network name: mnist_relu_3_10.tf
-input tested: 100
-Cegar best  : 76
-Input best  : 1
-Cegar=Input : 1
-Input>Zono  : 18
-Cegar>Zono  : 77
-No improve  : 22
+missing:
+k=4 n=60 from=55 to=99
 
--------------------- summary --------------------
-network name: mnist_relu_5_50.tf
-input tested: 100
-Cegar best  : 36
-Input best  : 3
-Cegar=Input : 12
-Input>Zono  : 17
-Cegar>Zono  : 48
-No improve  : 49
+k=5 n=90, 150, 200
+k=6 n=70, 90, 150
 
--------------------- summary --------------------
-network name: mnist_relu_6_100.tf
-input tested: 100
-Cegar best  : 22
-Input best  : 2
-Cegar=Input : 8
-Input>Zono  : 10
-Cegar>Zono  : 30
-No improve  : 68
-
--------------------- summary --------------------
-network name: mnist_relu_4_50.tf
-input tested: 100
-Cegar best  : 30
-Input best  : 0
-Cegar=Input : 10
-Input>Zono  : 10
-Cegar>Zono  : 40
-No improve  : 60
-
--------------------- summary --------------------
-network name: mnist_relu_5_100.tf
-input tested: 100
-Cegar best  : 9
-Input best  : 4
-Cegar=Input : 13
-Input>Zono  : 17
-Cegar>Zono  : 22
-No improve  : 74
-
--------------------- summary --------------------
-network name: mnist_relu_6_200.tf
-input tested: 100
-Cegar best  : 6
-Input best  : 5
-Cegar=Input : 5
-Input>Zono  : 10
-Cegar>Zono  : 11
-No improve  : 84
-
+Need redo:
+k=3 n=150 from=60 to=99

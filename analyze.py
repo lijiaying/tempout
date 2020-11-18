@@ -74,7 +74,7 @@ def combine_results(netname):
 def load_combined_result(netname):
     dir='zic'
     file = os.path.join(dir, netname+'.txt')
-    if not os.path.exists(file):
+    if True or not os.path.exists(file):
         if combine_results(netname) is None:
             return None
     lst = []
