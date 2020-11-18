@@ -1,0 +1,10 @@
+# model name: mnist_relu_4_60.tf
+# from  test: 10
+# num  tests: 5
+# start time: 2020-11-17 05:52:55
+# end   time: 2020-11-17 05:59:54
+{'test': 10, 'deepzono': 0.021, 'deepinput': 0.022}
+{'test': 11, 'deepzono': 0.012, 'deepinput': 0.012}
+{'test': 12, 'deepzono': 0.016, 'deepinput': 0.016}
+{'test': 13, 'deepzono': 0.023, 'deepinput': 0.023}
+{'test': 14, 'deepzono': 0.016, 'deepinput': 0.016}
