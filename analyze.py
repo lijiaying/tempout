@@ -140,7 +140,7 @@ def analyze(netname):
     # # assert (i_best == i_gt_c)
     # print()
     # print(num['c>i'], num['i>c'], avg['c>i'])
-    return num['c>i'], num['i>c'], round(avg['c>i'], 1)
+    return num['c>i'], num['i>c'], round(avg['c>i'], 1), round(avg['i>c'], 1)
     return (num['i>z'], num['c>z'], num['i>c'], num['c>i'])
 
 
@@ -149,6 +149,7 @@ def deepcegar_on_deepz():
     N = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 150, 200]
     excludes = [(3,10), (4,50), (5,50), (5,100), (6,100), (6, 200)]
     
+    print('deepcegar outperform deepz:')
     results = []
     for k in K:
         k_result = []
@@ -172,20 +173,42 @@ def deepall():
     excludes = [(3,10), (4,50), (5,50), (5,100), (6,100), (6, 200)]
     
     results = []
+    k_c_results = []
+    k_i_results = []
     for k in K:
+        k_i_result = []
+        k_c_result = []
         for n in N:
             # if (k,n) in excludes:
             #     continue
             netname = 'mnist_relu_' + str(k) + '_' + str(n)
             result = analyze(netname)
             if result is None:
+                k_c_result.append('?')
+                k_c_result.append('?')
+                k_i_result.append('?')
+                k_i_result.append('?')
                 continue
-            (c, i, inum) = result
-            results.append([k, n, c, i, inum])
+            (c, i, cp, ip) = result
+            results.append([k, n, c, i, cp, ip])
             print(results[-1])
+            k_c_result.append(c)
+            k_c_result.append(cp)
+            k_i_result.append(i)
+            k_i_result.append(ip)
             # (ibet, cbet, ibst, cbst) = result
             # results.append([k, n, ibet, cbet, ibst, cbst])
+        k_c_results.append(k_c_result)
+        k_i_results.append(k_i_result)
     
+    print('deepcegar over deepinput')
+    for k, k_result in zip(K, k_c_results):
+        print('k=', k, ' & ', ' & '.join([str(v) for v in k_result]), ' \\\\', sep='')
+    
+    print('deepinput over deepcegar')
+    for k, k_result in zip(K, k_i_results):
+        print('k=', k, ' & ', ' & '.join([str(v) for v in k_result]), ' \\\\', sep='')
+
     # with open('./sum.csv', 'w') as f:
     #     for result in results:
     #         f.write(','.join(str(v) for v in result)+'\n')
@@ -194,5 +217,5 @@ def deepall():
 
 
 if __name__ == '__main__':
-    # deepcegar_on_deepz()
+    deepcegar_on_deepz()
     deepall()
